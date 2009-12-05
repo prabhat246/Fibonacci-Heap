@@ -1,0 +1,31 @@
+nodes 100
+makeheap 1
+makeheap 2
+insert 1 23
+insert 1 45
+insert 1 12
+insert 1 65
+insert 1 38
+insert 1 49
+insert 1 78
+insert 1 95
+insert 1 25
+findmin 1
+deletemin 1
+print 1
+delete 1 49
+print 1
+deletemin 1
+insert 2 4
+insert 2 3
+insert 2 8
+insert 2 33
+insert 2 32
+insert 2 70
+deletemin 2
+decreasekey 2 70 10
+print 2
+mergeheaps 1 2
+print 3
+memory
+test 32
